@@ -6,6 +6,10 @@ Theme name: JoisCorp
 FirstColor:#08526d;
 Secondcolor:#ec1c23 
 /**Global varibale**/
+* {
+    scroll-behavior: smooth;
+
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }

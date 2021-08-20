@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link href="icon-font/lineicons.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <!--NavBar Start here-->
-   <div class="Background">
+   <div class="Background"> 
    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
         <a class="navbar-brand" href="#">
@@ -27,19 +33,22 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Why</a>
+              <a class="nav-link" href="#first-section">Why</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#second-section">About us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Screenshot</a>
+                <a class="nav-link" href="#third-section">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#fourth-section">Clients</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Download</a>
+                <a class="nav-link" href="#fifth-section">Prices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sixth-section">Download</a>
               </li>
           </ul>
         </div>
@@ -51,7 +60,7 @@
  <div class="container">
      <div class="row d-flex justify-content-between">
       <div class="col-lg-6 col-sm-12">
-          <div class="content-banner">
+          <div class="content-banner " data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"  data-aos-duration="1500">
           <h1>  <span style="color: #0898E7;">Lubnch you app </span>With Confidence and Creativity.</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos harum repellendus ad iste numquam praesentium tempore ipsum doloremque officiis repudiandae esse nihil non ipsam eum provident recusandae voluptatem ratione.</p>
         <button>Download Now</button>
@@ -60,7 +69,7 @@
         </div>
       </div>
       <div class="col-lg-4 col-sm-12">
-          <div class="image-banner">
+          <div class="image-banner "  data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"  data-aos-duration="1500">
           <img src="image/header-app.png" class="d-md-block" alt="">
           </div>
       </div>
@@ -69,7 +78,8 @@
     </div><!--End of Background container here-->
       <!--NavBar end here-->
       <!--why choose us start here-->
-      <div class="why-choose-us">
+      
+      <div class="why-choose-us" id="first-section" style="scroll-behavior: smooth;   overflow-y: smooth;">
         <div class="d-flex justify-content-center chosse-us-header">
           <h1>Why You Should Choose AppLand      
             </h1>
@@ -80,28 +90,28 @@
         <div class="container">
           <div class="contnet">
           <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
-            <div class="col mt-3">
+            <div class="col mt-3 " data-aos="zoom-in"   data-aos-duration="900">
               <div class="cards clean-design">
                 <i class="lni lni-layers"></i>
                 <h2 class="mt-3">Clean Design</h2>
                 <p>Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
               </div>
             </div>
-            <div class="col  mt-3">
+            <div class="col  mt-3 "  data-aos="zoom-in"   data-aos-duration="1200">
               <div class="cards easy-to-use">
                 <i class="lni lni-layout"></i>
                 <h2 class="mt-3">Easy to Use</h2>
                 <p>Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
               </div>
             </div>
-            <div class="col  mt-3">
+            <div class="col  mt-3 " data-aos="zoom-in"   data-aos-duration="1600">
               <div class="cards fast-loading">
                 <i class="lni lni-reload"></i>
                 <h2 class="mt-3">Fast Loading</h2>
                 <p>Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
               </div>
             </div>
-            <div class="col  mt-3">
+            <div class="col  mt-3 " data-aos="zoom-in"   data-aos-duration="1800">
               <div class="cards all-elements">
                 <i class="lni lni-layers"></i>
                 <h2 class="mt-3">All Elements</h2>
@@ -114,15 +124,15 @@
       </div>
       <!--whu choose us end here-->
        <!--about app start here-->
-    <div class="about-app">
+    <div class="about-app" id="second-section" >
          <div class="container">
            <div class="row d-flex  align-items-center">
-           <div class="col-lg-6 col-sm-12 mt-5 column-padding">
+           <div class="col-lg-6 col-sm-12 mt-5 column-padding" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"  data-aos-duration="2000">
              <div class="background-linear">
                <img src="image/about-app.png" alt="">
              </div>
            </div>
-           <div class="col-lg-6 col-sm-12 mt-5">
+           <div class="col-lg-6 col-sm-12 mt-5" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"  data-aos-duration="2000">
              <div class="content-about-app">
                <h1>Comes With All You Need. </h1>
                <p class="mt-3">Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq Alii nusquam cuduo, vim eusde consulatu percipitur, meis dolor comprehensam at vij. Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq nusquam.</p>
@@ -134,7 +144,7 @@
        </div>
         <!--about app end here-->
       <!--awsome key feature start here-->
-    <!---->  <div class="awsome-features">
+    <!---->  <div class="awsome-features" id="third-section" >
         <div class="d-flex justify-content-center awsome-header mt-5">
           <h1>Awesome Key Features.    
             </h1>
@@ -144,22 +154,22 @@
         </div>
         <div class="container">
         <div class="row d-flex justify-content-between mt-5">
-          <div class="col-lg-6 col-sm-12 mt-5">
-            <div class="features-card mt-3">
+          <div class="col-lg-6 col-sm-12 mt-5" >
+            <div class="features-card mt-3"  data-aos="fade-right"   data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">
               <i class="lni lni-laptop-phone"></i>
              <div class="content-card ml-3">
               <h3>Fully Responsive</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi rem dolorum ut eius!</p>
              </div>
             </div>
-            <div class="features-card second-features mt-3">
+            <div class="features-card second-features mt-3" data-aos="fade-right"   data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="700">
               <i class="lni lni-leaf"></i>
              <div class="content-card ml-3">
               <h3>Refreshing Design</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum animi rem dolorum ut eius!</p>
              </div>
             </div>
-            <div class="features-card third-features mt-3">
+            <div class="features-card third-features mt-3" data-aos="fade-right"   data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
               <i class="lni lni-bootstrap"></i>
              <div class="content-card ml-3">
               <h3>Bootstrap 4 </h3>
@@ -168,7 +178,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 mt-5">
-            <div class="features-images">
+            <div class="features-images"  data-aos="fade-left"   data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="800">
               <div class="images-shape-features"></div>
             <img src="image/features-app.png" alt="">
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="curve-emojie">
@@ -181,7 +191,7 @@
       </div>
       <!--awsome key features end here-->
     <!--user review start here-->
-    <div class="user-review-section">
+    <div class="user-review-section" id="fourth-section" >
       <div class="d-flex justify-content-center user-review-header  mt-5">
         <h1 class="mt-5" >User Review
           </h1>
@@ -190,7 +200,7 @@
           <p>Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque.</p>
       </div>
 <div class="container">
-   <div class="user-review-content">
+   <div class="user-review-content" data-aos="zoom-in"   data-aos-duration="900">
     <i class="fas fa-quote-left fa-3x queto"></i>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident possimus sapiente assumenda accusantium quo. Non obcaecati, similique recusandae qui perferendis vitae laboriosam aspernatur iure ipsa voluptate eveniet quisquam. Quia?</p>
      <h5>Lisa Smith</h5>
@@ -199,7 +209,7 @@
    <div class="tringle"></div>
      </div>
 <div class="container">
-  <div class=" row  user-review-person">
+  <div class=" row  user-review-person" data-aos="zoom-in"   data-aos-duration="900">
     <div class="col-lg-2 col-md-2 col-4 mb-5 p-2">
       <img src="image/Optimized-indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university.jpg" alt="">
     </div>
@@ -220,7 +230,7 @@
 </div>
     <!--user review end here-->
     <!--price plan table start here-->
-    <div class="price-section">
+    <div class="price-section" id="fifth-section" >
       <div class="container">
       <div class="d-flex justify-content-center user-review-header  mt-5">
         <h1 class="mt-5" >Choose a Plan
@@ -230,7 +240,7 @@
           <p>Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque.</p>
       </div>
       <div class="row mt-3">
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-sm-12 col-lg-4" data-aos="zoom-in"   data-aos-duration="1000">
           <div class="card mt-5">
               <div class="card-body card-price-content">
                 <h2>Basic</h2>
@@ -247,7 +257,7 @@
               </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-sm-12 col-lg-4" data-aos="zoom-in"   data-aos-duration="1000">
           <div class="card middle-card mt-5">
           <div class="card-body card-price-content">
             <h2>Standard</h2>
@@ -264,7 +274,7 @@
           </div>
         </div>
         </div>
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-sm-12 col-lg-4" data-aos="zoom-in"   data-aos-duration="1000">
           <div class="card mt-5">
           <div class="card-body card-price-content">
             <h2>Professional</h2>
@@ -286,17 +296,17 @@
     </div>
     <!--price plan table end here-->
     <!--start download section start here-->
-    <div class="download-sectoin">
+    <div class="download-sectoin" id="sixth-section" >
       <div class="container">
         <div class="row mt-5">
           <div class="col-lg-5">
-            <div class="dowmload-images">
+            <div class="dowmload-images"  data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"  data-aos-duration="1500">
               <div class=""></div>
             <img src="image/features-app.png" alt="">
           </div>
           </div>
-          <div class="col-lg-6 " style="">
-           <div class="download-content mt-5">
+          <div class="col-lg-6" >
+           <div class="download-content mt-5" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"  data-aos-duration="1500">
              <h1>Download and Start Using!            </h1>
              <p>Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq Alii nusquam cuduo, vim eusde consulatu percipitur, meis dolor comprehensam at vij. Alii nusquam cu duo, vim eu consulatu percipitur, meis doorcomprehen sam at vis. Vel ut dignissim signiferumq nusquam.</p>
              <div class=" bd-highlight mb-3 download-icons mt-5">
@@ -323,7 +333,7 @@
     </div>
      <!--start download section end here-->
      <!--footer start here-->
-     <div class="footer">
+     <div class="footer" id="seventh-section" >
        <div class="container">
   <div class="row mt-5">
     <div class=" col-md-4 col-sm-12">
@@ -404,5 +414,9 @@
  <script src="js/bootstrap.min.js"></script>
  <script src="js/all.min.js"></script>
  <script src="js/main.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
  </body>
 </html>
